@@ -1,0 +1,143 @@
+DIGEST 9bc7c7ed1c14f7e114e684ab3f94c2de
+FVPR.advc.day1
+R24:29 Coq.Strings.String <> <> lib
+R56:60 Coq.Strings.Ascii <> <> lib
+R87:91 Coq.Arith.Arith <> <> lib
+R118:126 VPR.inf_prime <> <> lib
+R153:158 Coq.NArith.NArith <> <> lib
+R185:197 Coq.NArith.BinNat <> <> lib
+R224:233 Coq.Lists.List <> <> lib
+R243:255 Coq.Lists.List ListNotations <> mod
+def 270:273 <> inp1
+def 2365:2374 <> asciiDigit
+R2381:2385 Coq.Strings.Ascii <> ascii ind
+binder 2377:2377 <> a:1
+R2403:2412 Coq.Strings.Ascii <> N_of_ascii def
+R2414:2414 VPR.advc.day1 <> a:1 var
+binder 2398:2398 <> n:2
+R2425:2428 Coq.NArith.BinNat <> ::N_scope:x_'<?'_x not
+R2424:2424 VPR.advc.day1 <> n:2 var
+R2445:2447 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R2444:2444 VPR.advc.day1 <> n:2 var
+def 2464:2474 <> list_values
+R2481:2486 Coq.Strings.String <> string ind
+binder 2477:2477 <> s:3
+R2504:2523 Coq.Strings.String <> list_ascii_of_string def
+R2525:2525 VPR.advc.day1 <> s:3 var
+binder 2498:2499 <> la:4
+R2532:2534 Coq.Lists.List <> map def
+R2547:2548 VPR.advc.day1 <> la:4 var
+R2536:2545 VPR.advc.day1 <> asciiDigit def
+def 2563:2571 <> matchNext
+R2579:2582 Coq.Init.Datatypes <> list ind
+R2584:2584 Coq.Numbers.BinNums <> N ind
+binder 2574:2575 <> lv:5
+R2595:2595 Coq.Numbers.BinNums <> N ind
+binder 2588:2591 <> init:6
+R2609:2610 VPR.advc.day1 <> lv:5 var
+R2621:2622 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2634:2637 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2638:2639 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2648:2651 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2652:2655 VPR.advc.day1 <> init:6 var
+R2676:2680 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2688:2688 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2682:2685 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2697:2700 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+def 2734:2744 <> sumOfPaired
+R2752:2755 Coq.Init.Datatypes <> list ind
+R2757:2757 Coq.Numbers.BinNums <> N ind
+binder 2747:2748 <> lv:8
+R2768:2768 Coq.Numbers.BinNums <> N ind
+binder 2761:2764 <> init:9
+R2782:2783 VPR.advc.day1 <> lv:8 var
+R2794:2795 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2807:2810 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2817:2817 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2835:2838 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2818:2826 VPR.advc.day1 <> matchNext def
+R2828:2829 VPR.advc.day1 <> lv:8 var
+R2831:2834 VPR.advc.day1 <> init:9 var
+R2839:2849 VPR.advc.day1 <> sumOfPaired:10 def
+R2854:2857 VPR.advc.day1 <> init:9 var
+def 2879:2884 <> day1p1
+R2891:2896 Coq.Strings.String <> string ind
+binder 2887:2887 <> s:12
+R2915:2925 VPR.advc.day1 <> list_values def
+R2927:2927 VPR.advc.day1 <> s:12 var
+binder 2909:2910 <> lv:13
+R2946:2947 Coq.Lists.List <> hd def
+R2951:2952 VPR.advc.day1 <> lv:13 var
+binder 2938:2941 <> init:14
+R2959:2969 VPR.advc.day1 <> sumOfPaired def
+R2971:2972 VPR.advc.day1 <> lv:13 var
+R2974:2977 VPR.advc.day1 <> init:14 var
+R2990:2995 VPR.advc.day1 <> day1p1 def
+R2997:3000 VPR.advc.day1 <> inp1 def
+def 3045:3053 <> matchHalf
+R3061:3064 Coq.Init.Datatypes <> list ind
+R3066:3066 Coq.Numbers.BinNums <> N ind
+binder 3056:3057 <> lv:15
+R3078:3080 Coq.Init.Datatypes <> nat ind
+binder 3070:3074 <> index:16
+R3099:3104 Coq.Lists.List <> length syndef
+R3106:3107 VPR.advc.day1 <> lv:15 var
+binder 3092:3094 <> len:17
+R3128:3128 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R3146:3151 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R3134:3137 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3145:3145 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3129:3133 VPR.advc.day1 <> index:16 var
+R3141:3143 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R3138:3140 VPR.advc.day1 <> len:17 var
+R3152:3154 VPR.advc.day1 <> len:17 var
+binder 3118:3123 <> target:18
+R3170:3172 Coq.Lists.List <> nth def
+R3180:3181 VPR.advc.day1 <> lv:15 var
+R3174:3178 VPR.advc.day1 <> index:16 var
+binder 3165:3165 <> o:19
+R3203:3205 Coq.Lists.List <> nth def
+R3214:3215 VPR.advc.day1 <> lv:15 var
+R3207:3212 VPR.advc.day1 <> target:18 var
+binder 3198:3198 <> m:20
+R3233:3236 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R3232:3232 VPR.advc.day1 <> o:19 var
+R3237:3237 VPR.advc.day1 <> m:20 var
+R3247:3247 VPR.advc.day1 <> o:19 var
+def 3295:3297 <> sp2
+R3305:3308 Coq.Init.Datatypes <> list ind
+R3310:3310 Coq.Numbers.BinNums <> N ind
+binder 3300:3301 <> lv:21
+R3322:3324 Coq.Init.Datatypes <> nat ind
+binder 3314:3318 <> index:22
+R3338:3342 VPR.advc.day1 <> index:22 var
+R3353:3353 Coq.Init.Datatypes <> O constr
+R3358:3366 VPR.advc.day1 <> matchHalf def
+R3368:3369 VPR.advc.day1 <> lv:21 var
+R3371:3371 Coq.Init.Datatypes <> O constr
+R3377:3377 Coq.Init.Datatypes <> S constr
+R3385:3385 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R3404:3407 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R3386:3394 VPR.advc.day1 <> matchHalf def
+R3396:3397 VPR.advc.day1 <> lv:21 var
+R3399:3403 VPR.advc.day1 <> index:22 var
+R3408:3410 VPR.advc.day1 <> sp2:23 def
+R3412:3413 VPR.advc.day1 <> lv:21 var
+def 3437:3442 <> day1p2
+R3449:3454 Coq.Strings.String <> string ind
+binder 3445:3445 <> s:25
+R3472:3482 VPR.advc.day1 <> list_values def
+R3484:3484 VPR.advc.day1 <> s:25 var
+binder 3466:3467 <> lv:26
+R3503:3508 Coq.Lists.List <> length syndef
+R3510:3511 VPR.advc.day1 <> lv:26 var
+binder 3496:3498 <> len:27
+R3518:3520 VPR.advc.day1 <> sp2 def
+R3522:3523 VPR.advc.day1 <> lv:26 var
+R3526:3529 VPR.inf_prime <> pred def
+R3531:3533 VPR.advc.day1 <> len:27 var
+def 3546:3550 <> test5
+R3584:3589 VPR.advc.day1 <> day1p2 def
+R3591:3595 VPR.advc.day1 <> test5 ex
+R3626:3631 VPR.advc.day1 <> day1p2 def
+R3633:3636 VPR.advc.day1 <> inp1 def
