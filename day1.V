@@ -1,7 +1,8 @@
+
 From Coq Require Import String.
 From Coq Require Import Ascii.
 From Coq Require Import Arith.
-From VPR Require Import inf_prime.
+Require Import inf_prime.
 From Coq Require Import NArith.
 From Coq Require Import NArith.BinNat.
 From Coq Require Import Lists.List.
